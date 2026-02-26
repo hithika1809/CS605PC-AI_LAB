@@ -10,3 +10,12 @@ def monkeybanana():
     state["monkey"]=state["banana"]
     print("Goal Achieved:",state)
 monkeybanana()
+
+"""
+Output:
+Enter monkey position: window
+Enter box position: centre
+Enter banana position: table
+Initial State: {'monkey': 'window', 'box': 'centre', 'banana': 'table'}
+Goal Achieved: {'monkey': 'table', 'box': 'table', 'banana': 'table'}
+"""
